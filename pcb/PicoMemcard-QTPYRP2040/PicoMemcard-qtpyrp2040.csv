@@ -1,0 +1,7 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"U2";"MODULE_ADAFRUIT_QT_PY";1;"ADAFRUIT_QT_PY";;;
+2;"H2,H1";"MountingHole_3.2mm_M3";2;"M3";;;
+3;"TP1";"TestPoint_Pad_D2.0mm";1;"GP23";;;
+4;"J1";"MemoryCardConnector";1;"PSX Memory Card Interface";;;
+5;"SW3,SW1,SW2";"SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2";3;"TS-1187A-B-A-B";;;
+6;"J2";"MicroSD_SPI_small";1;"MicroSD SPI";;;

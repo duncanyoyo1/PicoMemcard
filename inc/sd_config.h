@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ff.h"
-#include "sd_card.h"    
+#include "../no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h"    
     
 #ifdef __cplusplus
 extern "C" {

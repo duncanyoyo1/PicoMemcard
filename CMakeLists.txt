@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
 
-set(PICO_BOARD pico_w)
+set(PICO_BOARD adafruit_qtpy_rp2040)
 
 include(pico_sdk_import.cmake)
 
@@ -47,8 +47,6 @@ target_link_libraries(
   tinyusb_device
   tinyusb_board
   FatFs_SPI
-
-  pico_cyw43_arch_none # If you do not need the TCP/IP stack but wish to use the on-board LED on a Pico W
   hardware_adc
 )
 

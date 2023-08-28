@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include "sd_config.h"
+#include "../inc/sd_config.h"
 #include "memory_card.h"
 
 /* extension for memcard files */
@@ -93,7 +93,7 @@ uint32_t memcard_manager_count() {
 uint32_t memcard_manager_get(uint32_t index, uint8_t* out_filename) {
 	if(!out_filename)
 		return MM_BAD_PARAM;
-	if(index < 0 || index > MAX_MC_IMAGES)
+	if(index < 0 || index > MAX_MC_INDEX)
 		return MM_INDEX_OUT_OF_BOUNDS;
 	uint32_t count = memcard_manager_count();
 	if(index >= count)
