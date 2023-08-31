@@ -6,12 +6,12 @@
 
   (paper "A4")
   (title_block
-    (title "RP2040-Zero PicoMemcard PCB")
-    (date "2022-09-13")
-    (rev "1.3.1")
-    (company "DanGiu")
-    (comment 1 "Improved MicroSD module mount (long soldering pads)")
-    (comment 2 "Aligned MicroSD silkscreen")
+    (title "Adafruit QT Py RP2040 PicoMemcard PCB")
+    (date "2023-08-29")
+    (rev "1.0")
+    (company "Duncanyoyo1")
+    (comment 1 "Changed RP2040-Zero to Adafruit QT Py RP2040")
+    (comment 2 "Changed MicroSD footprint for QT Py BFF MicroSD Backpack")
   )
 
   (layers

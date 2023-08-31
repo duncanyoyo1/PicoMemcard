@@ -295,6 +295,25 @@ void __time_critical_func(sel_isr_callback()) {
     restart_pio_sm();
 }
 
+/* IS THIS BETTER? NOT SURE
+void __time_critical_func(sel_isr_callback()) {
+    // Configure interrupt handling for PIN_SEL
+    const uint32_t intr_index = PIN_SEL / 8;
+    const uint32_t intr_shift = (4 * (PIN_SEL % 8)) & 0x1F;  // Limit shift value to 0-31 (5 bits)
+
+    // Check the validity of the GPIO parameter
+    check_gpio_param(PIN_SEL);
+
+    // Set the interrupt configuration for the selected GPIO pin
+    uint32_t intr_mask = GPIO_IRQ_EDGE_RISE << intr_shift;
+    iobank0_hw->intr[intr_index] |= intr_mask;
+
+    // Restart the PIO state machine
+    restart_pio_sm();
+}
+*/
+
+
 void queue_sync_step(queue_t* queue, uint8_t* mc_file_name) {
     uint16_t next_entry;
     queue_remove_blocking(queue, &next_entry);

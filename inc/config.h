@@ -60,8 +60,8 @@
 #endif
 
 #ifdef ADAFRUIT_QTPY_RP2040
-	#define PIN_MISO	3
-	#define PIN_MOSI	4
+	#define PIN_MISO	4
+	#define PIN_MOSI	3
 	#define PIN_SCK		6
 	#define PIN_SS		5
 #endif

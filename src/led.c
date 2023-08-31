@@ -4,14 +4,15 @@
 #include "hardware/pio.h"
 #include "hardware/adc.h"
 #ifdef PICO
-#include "pico/cyw43_arch.h"
+//#include "pico/cyw43_arch.h"
+#include "pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h"
 #endif
 #if defined(WAVESHARE_RP2040_ZERO) || defined(ADAFRUIT_QTPY_RP2040)
 #include "ws2812.pio.h"
 #endif
 
 //#ifdef PICO
-#define PICO_LED_PIN 26
+//#define PICO_LED_PIN 12
 //#endif
 
 static uint smWs2813;
@@ -31,7 +32,7 @@ void ws2812_put_rgb(uint8_t red, uint8_t green, uint8_t blue) {
 
 void led_init() {
 	#if defined(WAVESHARE_RP2040_ZERO) || defined(ADAFRUIT_QTPY_RP2040)
-	// gpio_put(11, true); // This might not need to be here, should be removed for non QTPY2040 use
+	gpio_put(11, true); // This might not need to be here, should be removed for non QTPY2040 use
 	offsetWs2813 = pio_add_program(pio1, &ws2812_program);
 	smWs2813 = pio_claim_unused_sm(pio1, true);
 	ws2812_program_init(pio1, smWs2813, offsetWs2813, PICO_DEFAULT_WS2812_PIN, 800000, true);
