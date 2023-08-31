@@ -6,11 +6,12 @@
 
   (title_block
     (title "Adafruit QT Py RP2040 PicoMemcard")
-    (date "2023-08-27")
-    (rev "1.0")
+    (date "2023-08-31")
+    (rev "1.1")
     (company "All Around Electronics, LLC.")
     (comment 1 "Changed RP2040-Zero to Adafruit QT Py RP 2040")
     (comment 2 "Changed MicroSD SPI to the Adafruit QT Py BFF MicroSD Backpack")
+    (comment 3 "Connected MicroSD BFF to 3V3 NET (OOF)")
   )
 
   (lib_symbols

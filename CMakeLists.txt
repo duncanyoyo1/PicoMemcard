@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 
 set(PICO_BOARD adafruit_qtpy_rp2040)
+set(PICO_SDK_PATH "~/PicoMemcard/pico-sdk/") # You may need to set this to the correct pico-sdk
 
 include(pico_sdk_import.cmake)
 

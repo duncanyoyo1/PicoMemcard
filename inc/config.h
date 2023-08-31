@@ -12,7 +12,7 @@
 /* Board targeted by build */
 //#define PICO
 //#define WAVESHARE_RP2040_ZERO
-//#define ADAFRUIT_QTPY_RP2040
+#define ADAFRUIT_QTPY_RP2040
 #ifndef PICO_BOARD
 #define PICO
 #endif
@@ -35,11 +35,11 @@
 #endif
 
 #ifdef ADAFRUIT_QTPY_RP2040
-	#define PIN_DAT 26
-	#define PIN_CMD PIN_DAT + 1		// must be immediately after PIN_DAT
-	#define PIN_SEL PIN_CMD + 1		// must be immediately after PIN_CMD
-	#define PIN_CLK PIN_SEL + 1		// must be immediately after PIN_SEL
-	#define PIN_ACK 24
+    #define PIN_CLK 2
+    #define PIN_SEL PIN_CLK + 1	   // must be immediately after PIN_CLK
+    #define PIN_CMD PIN_SEL + 1    // must be immediately after PIN_SEL
+    #define PIN_DAT PIN_CMD + 1    // must be immediately after PIN_CMD
+    #define PIN_ACK 17
 #endif
 
 /* SD Card Configuration */
@@ -60,10 +60,10 @@
 #endif
 
 #ifdef ADAFRUIT_QTPY_RP2040
-	#define PIN_MISO	4
-	#define PIN_MOSI	3
-	#define PIN_SCK		6
-	#define PIN_SS		5
+	#define PIN_MISO	9
+	#define PIN_MOSI	10
+	#define PIN_SCK		8
+	#define PIN_SS		7
 #endif
 
 #endif
