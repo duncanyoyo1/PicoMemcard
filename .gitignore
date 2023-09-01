@@ -28,6 +28,7 @@ ff14b/documents
 
 # VSCode
 .vscode/settings.json
+.vscode/c_cpp_properties.json
 
 # Clion
 /.idea
