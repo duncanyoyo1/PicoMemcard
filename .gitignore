@@ -15,12 +15,16 @@ _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
+*.cmake
 fp-info-cache
 
 # Build directory
 build/
 build_old/
 build_new/
+pioasm/
+CMakeFiles/
+elf2uf2/
 
 # Cortex-Debug extension debug artifacts
 .vscode/.cortex*
