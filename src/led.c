@@ -5,7 +5,7 @@
 #include "hardware/adc.h"
 #ifdef PICO
 //#include "pico/cyw43_arch.h"
-#include "pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h"
+#include "pico-sdk/lib/cyw43-driver/src/cyw43.h"
 #endif
 #if defined(WAVESHARE_RP2040_ZERO) || defined(ADAFRUIT_QTPY_RP2040)
 #include "ws2812.pio.h"
