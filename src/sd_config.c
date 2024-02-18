@@ -4,20 +4,14 @@
 #include "diskio.h"
 #include "config.h"
 
-void spi0_dma_isr();
-
 static spi_t spis[] = {
 {
     .hw_inst = spi0,
     .miso_gpio = PIN_MISO,
     .mosi_gpio = PIN_MOSI,
     .sck_gpio = PIN_SCK,
-    .baud_rate = BAUD_RATE,   
-
-    .dma_isr = spi0_dma_isr
+    .baud_rate = BAUD_RATE
 }};
-
-void spi0_dma_isr() { spi_irq_handler(&spis[0]); }
 
 static sd_card_t sd_cards[] = {
     {

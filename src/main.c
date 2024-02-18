@@ -46,15 +46,6 @@ int main(void) {
 // Device callbacks
 //--------------------------------------------------------------------+
 
-// Invoked when device is mounted
-void tud_mount_cb(void) {
-	tud_mount_status = true;
-	/* Initialize SD card */
-	sd_card_t *p_sd = sd_get_by_num(0);
-	if (!p_sd) return;
-	sd_init_card(p_sd);
-}
-
 // Invoked when device is unmounted
 void tud_umount_cb(void) {}
 

@@ -1,8 +1,39 @@
-09-16 17:20:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 220:Plugin executed on: 'linux'
-09-16 17:20:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 221:Plugin executed with python version: '3.11.5 (main, Sep  2 2023, 14:16:33) [GCC 13.2.1 20230801]'
-09-16 17:20:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 222:KiCad build version: 7.0.7
-09-16 17:20:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 223:Plugin version: 1.0.10
+09-25 21:35:35 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 220:Plugin executed on: 'linux'
+09-25 21:35:35 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 221:Plugin executed with python version: '3.11.5 (main, Sep  2 2023, 14:16:33) [GCC 13.2.1 20230801]'
+09-25 21:35:35 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 222:KiCad build version: 7.0.7
+09-25 21:35:35 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 223:Plugin version: 1.0.10
 
-09-16 17:20:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 228:Screen sizes: [wx.Size(1920, 1080), wx.Size(1920, 1080)]
-09-16 17:20:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 235:Dialog size: wx.Size(213, 81)
-09-16 17:20:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 237:Char size: 16
+09-25 21:35:35 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 228:Screen sizes: [wx.Size(1920, 1080), wx.Size(1920, 1080)]
+09-25 21:35:35 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 235:Dialog size: wx.Size(213, 81)
+09-25 21:35:35 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 237:Char size: 16
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 24:Starting to archive 3D models
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: H2
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: TP1
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: H1
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: J1
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: U2
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: SW3
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: C:/Users/Daniele/Documents/KiCad/easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 94:Ambiguous path for the model: C:/Users/Daniele/Documents/KiCad/easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 132:Did not copy: C:/Users/Daniele/Documents/KiCad/easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: C:/Users/Daniele/Documents/KiCad/easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: SW1
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: C:\Users\Daniele\Documents\Kicad\easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 94:Ambiguous path for the model: C:\Users\Daniele\Documents\Kicad\easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 132:Did not copy: C:\Users\Daniele\Documents\Kicad\easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: C:\Users\Daniele\Documents\Kicad\easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: SW2
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: C:\Users\Daniele\Documents\Kicad\easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 94:Ambiguous path for the model: C:\Users\Daniele\Documents\Kicad\easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 132:Did not copy: C:\Users\Daniele\Documents\Kicad\easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: C:\Users\Daniele\Documents\Kicad\easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Getting 3D models for footprint of: U1
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 56:Trying to copy: C:/Users/AyAn4/Downloads/5325 QTPy ESP32S2.step
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 94:Ambiguous path for the model: C:/Users/AyAn4/Downloads/5325 QTPy ESP32S2.step
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 132:Did not copy: C:/Users/AyAn4/Downloads/5325 QTPy ESP32S2.step
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 136:Remapping: C:/Users/AyAn4/Downloads/5325 QTPy ESP32S2.step
+09-25 21:35:43 com_github_MitjaNemec_Archive3DModels.archive_3d_models 147:Did not succeed to copy 3D models!
+('SW3', 'C:/Users/Daniele/Documents/KiCad/easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl')
+('SW1', 'C:\\Users\\Daniele\\Documents\\Kicad\\easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl')
+('SW2', 'C:\\Users\\Daniele\\Documents\\Kicad\\easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl')
+('U1', 'C:/Users/AyAn4/Downloads/5325 QTPy ESP32S2.step')
