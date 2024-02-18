@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"H1, H2",MountingHole_3.2mm_M3,2,M3,
+J1,MemoryCardConnector,1,PSX Memory Card Interface,
+"SW1, SW2, SW3",SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2,3,TS-1187A-B-A-B,C318884
+TP1,TestPoint_Pad_D2.0mm,1,GP23,
+U1,MODULE_ADAFRUIT_QT_PY_BFF,1,QT PY SD BFF,
+U2,MODULE_ADAFRUIT_QT_PY,1,ADAFRUIT QT PY,
